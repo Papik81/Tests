@@ -1,0 +1,3 @@
+#Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*)  https://portal.thosting.cz/webmail/$1 [R=301,L] 
